@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.note_wrap {
+    width: 600px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.note_main-menu {
+    background-color: lightgrey;
+    width: 600px;
+    height: 28px;
+}
+
+.note_main-menu-title {
+    float: left;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.note_main-menu-close {
+    float: right;
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+}
+
+.note_fun {
+    padding-left: 5px;
+    background-color: lightslategray;
+}
+
+.note_fun-block {
+    display: inline-block;
+}
+
+.note_fun-block > div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.note_fun-block > div:hover {
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
+
+.note_style {
+    background-color: mediumspringgreen;
+    padding-left: 5px;
+}
+
+.note_style-block {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.note_style-block:hover {
+    cursor: pointer;
+    background-color: mediumvioletred;
+} 
+
+.note_area {
+    padding: 0 5px;
+}
+
+#area_box {
+    width: 590px;
+    height: 500px;
+}
