@@ -7,22 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="title">Notepad</div>
-
     <div class="note_wrap">
+        <div class="note_main-menu">
+            <div class="note_main-menu-title">Notepad</div>
+            <div class="note_main-menu-close">&times;</div>
+        </div>
+
+        <div class="note_fun">
+            <ul class="note_fun-menu">
+                <li class="note_fun-block">
+                    <div>New</div>
+                    <div>Save</div>
+                </li>
+                <li class="note_fun-block">
+                    <div>Export XML</div>
+                    <div>Export JSON</div>
+                    <div>Export CSV</div>
+                </li>
+            </ul>
+        </div>
         <div class="note_style">
             <ul class="note_style-menu">
-                <li class="note_style-block"></li>
-                <li class="note_style-block"></li>
-                <li class="note_style-block"></li>
-                <li class="note_style-block"></li>
-                <li class="note_style-block"></li>
-                <li class="note_style-block"></li>
+                <li class="note_style-block">24</li>
+                <li class="note_style-block">left</li>
+                <li class="note_style-block">red</li>
             </ul>
         </div>
         <div class="note_area">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="area_box" cols="30" rows="10"></textarea>
         </div>
     </div>
 
